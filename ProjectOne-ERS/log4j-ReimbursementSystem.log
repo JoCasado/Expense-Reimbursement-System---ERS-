@@ -1,0 +1,1413 @@
+2021-12-19 20:01:13 INFO  FrontController:23 - Checked if the requests exist
+2021-12-19 20:01:13 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-19 20:01:13 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-19 20:01:13 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-19 20:01:13 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-19 20:01:13 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-19 20:01:13 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-19 20:01:13 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-19 20:01:13 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-19 20:01:33 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 20:01:33 INFO  UserController:26 - User controller jose logged in
+2021-12-19 20:01:33 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 20:01:34 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 20:01:34 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 20:01:34 INFO  UserController:37 - Current user is a manager
+2021-12-19 20:01:34 INFO  UserController:55 - I am: MANAGER
+2021-12-19 20:01:34 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-19 20:01:34 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 20:01:34 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 20:01:34 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 7 tickets
+2021-12-19 20:01:34 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 7
+2021-12-19 20:01:56 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 20:01:56 INFO  ReimbursementDAO:114 - Successfully updated ticket: 6
+2021-12-19 20:01:56 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-19 20:01:56 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 20:01:57 INFO  ReimbursementDAO:114 - Successfully updated ticket: 6
+2021-12-19 20:01:57 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-19 20:01:57 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-19 20:01:57 INFO  UserController:55 - I am: MANAGER
+2021-12-19 20:01:57 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-19 20:01:57 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 20:01:57 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 20:01:57 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 7 tickets
+2021-12-19 20:01:57 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 7
+2021-12-19 20:02:10 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-19 20:02:10 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-19 22:56:35 INFO  FrontController:23 - Checked if the requests exist
+2021-12-19 22:56:35 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-19 22:56:35 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-19 22:56:35 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-19 22:56:35 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-19 22:56:35 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-19 22:56:35 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-19 22:56:35 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-19 22:56:35 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-19 22:56:49 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 22:56:49 INFO  UserController:26 - User controller jose logged in
+2021-12-19 22:56:49 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 22:56:50 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 22:56:50 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 22:56:50 INFO  UserController:37 - Current user is a manager
+2021-12-19 22:56:50 INFO  UserController:55 - I am: MANAGER
+2021-12-19 22:56:50 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-19 22:56:50 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 22:56:50 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 22:56:50 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 7 tickets
+2021-12-19 22:56:50 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 7
+2021-12-19 22:57:08 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-19 22:57:08 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-19 22:57:18 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 22:57:18 INFO  UserController:26 - User controller colleen logged in
+2021-12-19 22:57:18 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 22:57:18 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 22:57:18 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 22:57:18 INFO  UserController:33 - Current user is a employee
+2021-12-19 22:57:18 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-19 22:57:18 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-19 22:57:18 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 22:57:19 INFO  ReimbursementDAO:37 - Number of tickets returned: 1
+2021-12-19 22:57:19 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 1 tickets
+2021-12-19 22:57:19 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 1
+2021-12-19 22:57:43 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 22:57:43 INFO  ReimbursementDAO:60 - Successfully created new ticket for 3
+2021-12-19 22:57:43 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-19 22:57:43 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-19 22:57:43 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-19 22:57:43 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-19 22:57:43 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 22:57:44 INFO  ReimbursementDAO:37 - Number of tickets returned: 2
+2021-12-19 22:57:44 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 2 tickets
+2021-12-19 22:57:44 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 2
+2021-12-19 22:57:46 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-19 22:57:46 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-19 22:58:30 INFO  FrontController:23 - Checked if the requests exist
+2021-12-19 22:58:30 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-19 22:58:30 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-19 22:58:30 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-19 22:58:30 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-19 22:58:30 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-19 22:58:30 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-19 22:58:30 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-19 22:58:30 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-19 22:58:54 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 22:58:54 INFO  UserController:26 - User controller jose logged in
+2021-12-19 22:58:54 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 22:58:55 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 22:58:55 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 22:58:55 INFO  UserController:37 - Current user is a manager
+2021-12-19 22:58:55 INFO  UserController:55 - I am: MANAGER
+2021-12-19 22:58:55 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-19 22:58:55 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 22:58:55 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 22:58:55 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 8 tickets
+2021-12-19 22:58:55 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 8
+2021-12-19 22:59:02 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-19 22:59:02 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-19 23:00:26 INFO  FrontController:23 - Checked if the requests exist
+2021-12-19 23:00:26 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-19 23:00:26 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-19 23:00:26 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-19 23:00:26 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-19 23:00:26 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-19 23:00:26 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-19 23:00:26 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-19 23:00:26 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-19 23:00:37 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 23:00:37 INFO  UserController:26 - User controller jose logged in
+2021-12-19 23:00:37 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:00:37 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:00:37 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 23:00:37 INFO  UserController:37 - Current user is a manager
+2021-12-19 23:00:37 INFO  UserController:55 - I am: MANAGER
+2021-12-19 23:00:38 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-19 23:00:38 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:00:38 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:00:38 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 8 tickets
+2021-12-19 23:00:38 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 8
+2021-12-19 23:00:49 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-19 23:00:49 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-19 23:11:04 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:05 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:11:05 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:05 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:11:05 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:05 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-19 23:11:05 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:06 INFO  UserDaoImp:33 - Successfully got user by username and password
+2021-12-19 23:11:06 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:06 ERROR UserDaoImp:36 - Failed to get user by username and password
+2021-12-19 23:11:06 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:06 INFO  UserDaoImp:62 - Successfully got user by id
+2021-12-19 23:11:06 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:07 ERROR UserDaoImp:65 - Failed to get user by id
+2021-12-19 23:11:07 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:07 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:11:33 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:34 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-19 23:11:34 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:34 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:11:34 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:34 INFO  ReimbursementDAO:60 - Successfully created new ticket for 1
+2021-12-19 23:11:34 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:35 INFO  ReimbursementDAO:37 - Number of tickets returned: 0
+2021-12-19 23:11:35 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:35 INFO  ReimbursementDAO:114 - Successfully updated ticket: 1
+2021-12-19 23:11:35 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:11:35 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:31:44 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:31:45 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-19 23:31:45 INFO  UserServiceImp:20 - The DB has been calle to login user
+2021-12-19 23:31:45 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:31:46 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:31:46 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 23:31:46 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:31:46 ERROR UserDaoImp:94 - Failed to login user by username and password
+2021-12-19 23:31:46 INFO  UserServiceImp:23 - Sorry, unable to call the DB to login user
+2021-12-19 23:34:58 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:34:59 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:34:59 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-19 23:34:59 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-19 23:34:59 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:34:59 INFO  ReimbursementDAO:37 - Number of tickets returned: 0
+2021-12-19 23:34:59 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 0 tickets
+2021-12-19 23:34:59 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 0
+2021-12-19 23:34:59 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:34:59 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-19 23:34:59 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-19 23:34:59 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-19 23:34:59 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:35:00 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:35:00 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-19 23:35:00 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-19 23:36:36 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:36:37 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:36:37 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-19 23:36:37 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-19 23:36:37 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:36:37 INFO  ReimbursementDAO:37 - Number of tickets returned: 0
+2021-12-19 23:36:37 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 0 tickets
+2021-12-19 23:36:37 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 0
+2021-12-19 23:36:37 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:36:37 INFO  ReimbursementDAO:37 - Number of tickets returned: 1
+2021-12-19 23:36:37 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 1 tickets
+2021-12-19 23:36:37 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 1
+2021-12-19 23:36:37 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:36:38 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:36:38 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-19 23:36:38 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-19 23:36:51 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:36:52 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:36:52 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-19 23:36:52 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-19 23:36:52 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:36:52 INFO  ReimbursementDAO:37 - Number of tickets returned: 0
+2021-12-19 23:36:52 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 0 tickets
+2021-12-19 23:36:52 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 0
+2021-12-19 23:36:52 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:36:52 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-19 23:36:52 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-19 23:36:52 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-19 23:36:52 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:36:53 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:36:53 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-19 23:36:53 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-19 23:37:06 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:37:07 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-19 23:37:07 INFO  UserServiceImp:20 - The DB has been calle to login user
+2021-12-19 23:37:07 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:37:07 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:37:07 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 23:37:07 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:37:07 ERROR UserDaoImp:94 - Failed to login user by username and password
+2021-12-19 23:37:07 INFO  UserServiceImp:23 - Sorry, unable to call the DB to login user
+2021-12-19 23:57:13 INFO  FrontController:23 - Checked if the requests exist
+2021-12-19 23:57:13 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-19 23:57:13 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-19 23:57:13 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-19 23:57:13 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-19 23:57:13 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-19 23:57:13 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-19 23:57:13 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-19 23:57:13 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-19 23:57:24 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 23:57:24 INFO  UserController:26 - User controller jose logged in
+2021-12-19 23:57:24 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:57:24 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:57:24 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 23:57:24 INFO  UserController:37 - Current user is a manager
+2021-12-19 23:57:24 INFO  UserController:55 - I am: MANAGER
+2021-12-19 23:57:25 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-19 23:57:25 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:57:25 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-19 23:57:25 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-19 23:57:25 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-19 23:57:31 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-19 23:57:31 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-19 23:57:37 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 23:57:37 INFO  UserController:26 - User controller manny logged in
+2021-12-19 23:57:37 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:57:37 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:57:37 INFO  UserServiceImp:37 - Retrived a user
+2021-12-19 23:57:37 INFO  UserController:33 - Current user is a employee
+2021-12-19 23:57:38 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-19 23:57:38 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-19 23:57:38 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:57:38 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-19 23:57:38 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-19 23:57:38 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-19 23:58:11 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-19 23:58:11 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-19 23:58:16 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 23:58:16 INFO  UserController:26 - User controller jose logged in
+2021-12-19 23:58:16 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:58:17 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:58:17 INFO  UserServiceImp:32 - temp user is null
+2021-12-19 23:58:17 INFO  UserController:42 - Redirected the invalid user.
+2021-12-19 23:58:19 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-19 23:58:19 INFO  UserController:26 - User controller  logged in
+2021-12-19 23:58:19 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-19 23:58:19 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-19 23:58:19 INFO  UserServiceImp:32 - temp user is null
+2021-12-19 23:58:19 INFO  UserController:42 - Redirected the invalid user.
+2021-12-20 00:01:35 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 00:01:35 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 00:01:35 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 00:01:35 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 00:01:35 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 00:01:35 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 00:01:35 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 00:01:35 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 00:01:35 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 00:01:51 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:01:51 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:01:51 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:01:52 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:01:52 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:01:52 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:01:52 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:01:52 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:01:52 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:01:52 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:01:52 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:01:52 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:02:03 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:02:03 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:04:37 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 00:04:37 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 00:04:37 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 00:04:37 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 00:04:37 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 00:04:37 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 00:04:37 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 00:04:37 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 00:04:37 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 00:04:52 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:04:52 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:04:52 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:04:53 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:04:53 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:04:53 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:04:53 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:04:53 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:04:53 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:04:54 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:04:54 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:04:54 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:05:19 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:05:19 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:05:24 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:05:24 INFO  UserController:26 - User controller manny logged in
+2021-12-20 00:05:24 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:05:25 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:05:25 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:05:25 INFO  UserController:33 - Current user is a employee
+2021-12-20 00:05:25 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:05:25 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:05:25 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:05:25 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 00:05:25 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 00:05:25 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 00:05:36 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:05:36 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:08:50 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 00:08:50 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 00:08:50 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 00:08:50 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 00:08:50 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 00:08:50 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 00:08:50 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 00:08:50 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 00:08:50 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 00:09:00 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:09:00 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:09:00 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:09:00 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:09:00 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:09:00 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:09:01 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:09:01 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:09:01 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:09:01 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:09:01 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:09:01 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:09:23 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:09:23 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:09:29 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:09:29 INFO  UserController:26 - User controller manny logged in
+2021-12-20 00:09:29 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:09:29 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:09:29 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:09:29 INFO  UserController:33 - Current user is a employee
+2021-12-20 00:09:29 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:09:29 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:09:29 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:09:30 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 00:09:30 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 00:09:30 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 00:09:43 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:09:43 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:13:36 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 00:13:36 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 00:13:36 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 00:13:36 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 00:13:36 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 00:13:36 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 00:13:36 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 00:13:36 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 00:13:36 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 00:13:57 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:13:57 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:13:57 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:13:57 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:13:57 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:13:57 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:13:58 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:13:58 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:13:58 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:13:58 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:13:58 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:13:58 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:14:25 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:14:25 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:14:31 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:14:31 INFO  UserController:26 - User controller manny logged in
+2021-12-20 00:14:31 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:14:31 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:14:31 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:14:31 INFO  UserController:33 - Current user is a employee
+2021-12-20 00:14:31 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:14:31 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:14:31 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:14:31 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 00:14:31 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 00:14:31 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 00:14:52 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:14:52 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:17:51 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 00:17:51 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 00:17:51 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 00:17:51 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 00:17:51 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 00:17:51 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 00:17:51 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 00:17:51 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 00:17:51 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 00:17:59 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:17:59 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:17:59 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:18:00 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:18:00 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:18:00 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:18:00 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:18:01 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:18:01 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:18:01 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:18:01 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:18:01 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:18:32 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:18:32 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:18:32 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:18:32 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:18:32 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:18:32 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:19:02 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:19:02 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:19:02 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:19:02 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:19:02 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:19:02 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:19:28 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:19:28 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:19:28 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:19:29 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:19:29 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:19:29 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:19:45 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:19:45 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:19:45 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:19:45 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:19:45 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:19:45 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:20:40 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:20:40 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:20:40 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:20:40 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:20:40 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:20:40 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:21:04 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:21:04 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:21:04 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:21:04 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:21:04 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:21:04 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:21:30 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:21:30 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:21:36 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:21:36 INFO  UserController:26 - User controller manny logged in
+2021-12-20 00:21:36 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:21:37 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:21:37 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:21:37 INFO  UserController:33 - Current user is a employee
+2021-12-20 00:21:37 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:21:37 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:21:37 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:21:37 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 00:21:37 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 00:21:37 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 00:22:17 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:22:17 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:22:17 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:22:17 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 00:22:17 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 00:22:17 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 00:22:30 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:22:30 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:22:30 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:22:30 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 00:22:30 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 00:22:30 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 00:22:45 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:22:45 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:22:45 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:22:45 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 00:22:45 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 00:22:45 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 00:23:31 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:23:31 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:25:43 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 00:25:43 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 00:25:43 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 00:25:43 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 00:25:43 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 00:25:43 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 00:25:43 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 00:25:43 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 00:25:43 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 00:25:53 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:25:53 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:25:53 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:25:54 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:25:54 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:25:54 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:25:54 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:25:54 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:25:54 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:25:54 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:25:54 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:25:54 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:26:15 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:26:15 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:26:20 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:26:20 INFO  UserController:26 - User controller manny logged in
+2021-12-20 00:26:20 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:26:20 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:26:20 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:26:20 INFO  UserController:33 - Current user is a employee
+2021-12-20 00:26:20 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:26:20 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:26:20 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:26:21 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 00:26:21 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 00:26:21 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 00:26:31 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:26:31 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:29:12 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 00:29:12 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 00:29:12 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 00:29:12 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 00:29:12 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 00:29:12 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 00:29:12 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 00:29:12 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 00:29:12 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 00:29:24 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:29:24 INFO  UserController:26 - User controller  logged in
+2021-12-20 00:29:24 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:29:24 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:29:24 INFO  UserServiceImp:32 - temp user is null
+2021-12-20 00:29:24 INFO  UserController:42 - Redirected the invalid user.
+2021-12-20 00:29:38 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:29:38 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:29:38 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:29:38 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:29:38 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:29:38 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:29:38 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:29:39 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:29:39 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:29:39 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:29:39 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:29:39 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:30:00 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:30:01 INFO  ReimbursementDAO:114 - Successfully updated ticket: 4
+2021-12-20 00:30:01 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 00:30:01 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:30:01 INFO  ReimbursementDAO:114 - Successfully updated ticket: 4
+2021-12-20 00:30:01 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 00:30:01 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-20 00:30:01 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:30:01 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:30:01 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:30:01 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:30:01 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 9 tickets
+2021-12-20 00:30:01 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 9
+2021-12-20 00:30:08 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:30:08 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:30:15 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:30:15 INFO  UserController:26 - User controller carter logged in
+2021-12-20 00:30:15 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:30:15 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:30:15 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:30:15 INFO  UserController:33 - Current user is a employee
+2021-12-20 00:30:15 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:30:15 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:30:15 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:30:15 INFO  ReimbursementDAO:37 - Number of tickets returned: 1
+2021-12-20 00:30:15 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 1 tickets
+2021-12-20 00:30:15 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 1
+2021-12-20 00:30:33 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:30:34 INFO  ReimbursementDAO:60 - Successfully created new ticket for 4
+2021-12-20 00:30:34 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-20 00:30:34 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-20 00:30:34 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:30:34 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:30:34 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:30:34 INFO  ReimbursementDAO:37 - Number of tickets returned: 2
+2021-12-20 00:30:34 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 2 tickets
+2021-12-20 00:30:34 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 2
+2021-12-20 00:31:01 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:31:02 INFO  ReimbursementDAO:60 - Successfully created new ticket for 4
+2021-12-20 00:31:02 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-20 00:31:02 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-20 00:31:02 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:31:02 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:31:02 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:31:02 INFO  ReimbursementDAO:37 - Number of tickets returned: 3
+2021-12-20 00:31:02 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 3 tickets
+2021-12-20 00:31:02 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 3
+2021-12-20 00:31:04 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:31:04 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:31:10 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:31:10 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:31:10 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:31:10 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:31:10 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:31:10 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:31:11 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:31:11 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:31:11 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:31:11 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:31:11 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 11 tickets
+2021-12-20 00:31:11 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 11
+2021-12-20 00:31:31 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:31:31 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:32:51 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 00:32:51 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 00:32:51 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 00:32:51 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 00:32:51 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 00:32:51 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 00:32:51 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 00:32:51 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 00:32:51 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 00:33:02 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:33:02 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:33:02 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:33:03 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:33:03 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:33:03 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:33:03 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:33:03 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:33:03 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:33:03 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:33:03 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 11 tickets
+2021-12-20 00:33:03 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 11
+2021-12-20 00:33:18 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:33:18 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:33:27 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:33:27 INFO  UserController:26 - User controller colleen logged in
+2021-12-20 00:33:27 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:33:27 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:33:27 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:33:27 INFO  UserController:33 - Current user is a employee
+2021-12-20 00:33:27 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:33:27 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:33:27 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:33:27 INFO  ReimbursementDAO:37 - Number of tickets returned: 2
+2021-12-20 00:33:27 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 2 tickets
+2021-12-20 00:33:27 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 2
+2021-12-20 00:34:29 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:34:29 INFO  ReimbursementDAO:60 - Successfully created new ticket for 3
+2021-12-20 00:34:29 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-20 00:34:29 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-20 00:34:29 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:34:29 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:34:29 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:34:29 INFO  ReimbursementDAO:37 - Number of tickets returned: 3
+2021-12-20 00:34:29 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 3 tickets
+2021-12-20 00:34:29 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 3
+2021-12-20 00:34:42 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:34:43 INFO  ReimbursementDAO:60 - Successfully created new ticket for 3
+2021-12-20 00:34:43 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-20 00:34:43 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-20 00:34:43 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 00:34:43 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 00:34:43 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:34:43 INFO  ReimbursementDAO:37 - Number of tickets returned: 4
+2021-12-20 00:34:43 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 4 tickets
+2021-12-20 00:34:43 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 4
+2021-12-20 00:34:46 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:34:46 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 00:34:51 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 00:34:51 INFO  UserController:26 - User controller jose logged in
+2021-12-20 00:34:51 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:34:51 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 00:34:51 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 00:34:51 INFO  UserController:37 - Current user is a manager
+2021-12-20 00:34:51 INFO  UserController:55 - I am: MANAGER
+2021-12-20 00:34:51 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 00:34:51 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 00:34:52 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 00:34:52 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 13 tickets
+2021-12-20 00:34:52 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 13
+2021-12-20 00:35:03 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 00:35:03 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 11:23:46 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 11:23:46 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 11:23:46 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 11:23:46 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 11:23:46 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 11:23:46 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 11:23:46 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 11:23:46 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 11:23:46 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 11:24:08 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 11:24:08 INFO  UserController:26 - User controller jose logged in
+2021-12-20 11:24:08 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 11:24:09 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 11:24:09 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 11:24:09 INFO  UserController:37 - Current user is a manager
+2021-12-20 11:24:09 INFO  UserController:55 - I am: MANAGER
+2021-12-20 11:24:10 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 11:24:10 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 11:24:10 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 11:24:10 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 13 tickets
+2021-12-20 11:24:10 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 13
+2021-12-20 11:24:35 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 11:24:35 INFO  ReimbursementDAO:114 - Successfully updated ticket: 10
+2021-12-20 11:24:35 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 11:24:35 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 11:24:35 INFO  ReimbursementDAO:114 - Successfully updated ticket: 10
+2021-12-20 11:24:35 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 11:24:35 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-20 11:24:35 INFO  UserController:55 - I am: MANAGER
+2021-12-20 11:24:35 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 11:24:35 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 11:24:36 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 11:24:36 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 13 tickets
+2021-12-20 11:24:36 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 13
+2021-12-20 11:24:51 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 11:24:51 INFO  ReimbursementDAO:114 - Successfully updated ticket: 13
+2021-12-20 11:24:51 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 11:24:51 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 11:24:51 INFO  ReimbursementDAO:114 - Successfully updated ticket: 13
+2021-12-20 11:24:51 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 11:24:51 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-20 11:24:51 INFO  UserController:55 - I am: MANAGER
+2021-12-20 11:24:51 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 11:24:51 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 11:24:52 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 11:24:52 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 13 tickets
+2021-12-20 11:24:52 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 13
+2021-12-20 11:24:57 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 11:24:57 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 17:48:07 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:08 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-20 17:48:08 INFO  UserServiceImp:20 - The DB has been calle to login user
+2021-12-20 17:48:08 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:09 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 17:48:09 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 17:48:09 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:09 ERROR UserDaoImp:94 - Failed to login user by username and password
+2021-12-20 17:48:09 INFO  UserServiceImp:23 - Sorry, unable to call the DB to login user
+2021-12-20 17:48:40 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:40 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 17:48:41 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 13 tickets
+2021-12-20 17:48:41 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 13
+2021-12-20 17:48:41 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:41 INFO  ReimbursementDAO:37 - Number of tickets returned: 0
+2021-12-20 17:48:41 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 0 tickets
+2021-12-20 17:48:41 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 0
+2021-12-20 17:48:41 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:41 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 17:48:41 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 17:48:41 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 17:48:41 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:42 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 17:48:42 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 13 tickets
+2021-12-20 17:48:42 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 13
+2021-12-20 17:48:57 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:58 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-20 17:48:58 INFO  UserServiceImp:20 - The DB has been calle to login user
+2021-12-20 17:48:58 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:58 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 17:48:58 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 17:48:58 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:48:58 ERROR UserDaoImp:94 - Failed to login user by username and password
+2021-12-20 17:48:58 INFO  UserServiceImp:23 - Sorry, unable to call the DB to login user
+2021-12-20 17:54:12 INFO  FrontController:23 - Checked if the requests exist
+2021-12-20 17:54:12 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-20 17:54:12 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-20 17:54:12 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-20 17:54:12 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-20 17:54:12 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-20 17:54:12 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-20 17:54:12 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-20 17:54:12 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-20 17:54:29 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 17:54:29 INFO  UserController:26 - User controller manny logged in
+2021-12-20 17:54:29 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:54:29 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 17:54:29 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 17:54:29 INFO  UserController:33 - Current user is a employee
+2021-12-20 17:54:30 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 17:54:30 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 17:54:30 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:54:30 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-20 17:54:30 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-20 17:54:30 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-20 17:54:54 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:54:54 INFO  ReimbursementDAO:60 - Successfully created new ticket for 2
+2021-12-20 17:54:54 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-20 17:54:54 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-20 17:54:54 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 17:54:54 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 17:54:54 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:54:54 INFO  ReimbursementDAO:37 - Number of tickets returned: 6
+2021-12-20 17:54:54 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 6 tickets
+2021-12-20 17:54:54 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 6
+2021-12-20 17:55:02 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 17:55:02 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 17:55:08 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 17:55:08 INFO  UserController:26 - User controller jose logged in
+2021-12-20 17:55:08 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:55:09 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 17:55:09 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 17:55:09 INFO  UserController:37 - Current user is a manager
+2021-12-20 17:55:09 INFO  UserController:55 - I am: MANAGER
+2021-12-20 17:55:09 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 17:55:09 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:55:09 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 17:55:09 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 14 tickets
+2021-12-20 17:55:09 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 14
+2021-12-20 17:56:02 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:02 INFO  ReimbursementDAO:114 - Successfully updated ticket: 9
+2021-12-20 17:56:02 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 17:56:02 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:03 INFO  ReimbursementDAO:114 - Successfully updated ticket: 9
+2021-12-20 17:56:03 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 17:56:03 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-20 17:56:03 INFO  UserController:55 - I am: MANAGER
+2021-12-20 17:56:03 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 17:56:03 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:03 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 17:56:03 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 14 tickets
+2021-12-20 17:56:03 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 14
+2021-12-20 17:56:28 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:28 INFO  ReimbursementDAO:114 - Successfully updated ticket: 2
+2021-12-20 17:56:28 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 17:56:28 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:28 INFO  ReimbursementDAO:114 - Successfully updated ticket: 2
+2021-12-20 17:56:28 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 17:56:28 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-20 17:56:29 INFO  UserController:55 - I am: MANAGER
+2021-12-20 17:56:29 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 17:56:29 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:29 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 17:56:29 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 14 tickets
+2021-12-20 17:56:29 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 14
+2021-12-20 17:56:40 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:41 INFO  ReimbursementDAO:114 - Successfully updated ticket: 3
+2021-12-20 17:56:41 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 17:56:41 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:41 INFO  ReimbursementDAO:114 - Successfully updated ticket: 3
+2021-12-20 17:56:41 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-20 17:56:41 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-20 17:56:41 INFO  UserController:55 - I am: MANAGER
+2021-12-20 17:56:41 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 17:56:41 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:56:41 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 17:56:41 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 14 tickets
+2021-12-20 17:56:41 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 14
+2021-12-20 17:56:47 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 17:56:47 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 17:57:12 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 17:57:12 INFO  UserController:26 - User controller manny logged in
+2021-12-20 17:57:12 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:57:12 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 17:57:12 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 17:57:12 INFO  UserController:33 - Current user is a employee
+2021-12-20 17:57:12 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 17:57:12 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 17:57:12 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:57:12 INFO  ReimbursementDAO:37 - Number of tickets returned: 6
+2021-12-20 17:57:12 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 6 tickets
+2021-12-20 17:57:12 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 6
+2021-12-20 17:57:32 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 17:57:32 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 17:57:38 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 17:57:38 INFO  UserController:26 - User controller jose logged in
+2021-12-20 17:57:38 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:57:38 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 17:57:38 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 17:57:38 INFO  UserController:37 - Current user is a manager
+2021-12-20 17:57:38 INFO  UserController:55 - I am: MANAGER
+2021-12-20 17:57:38 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-20 17:57:38 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:57:38 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-20 17:57:38 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 14 tickets
+2021-12-20 17:57:38 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 14
+2021-12-20 17:57:50 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 17:57:50 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-20 17:57:56 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-20 17:57:56 INFO  UserController:26 - User controller colleen logged in
+2021-12-20 17:57:56 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:57:56 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-20 17:57:56 INFO  UserServiceImp:37 - Retrived a user
+2021-12-20 17:57:56 INFO  UserController:33 - Current user is a employee
+2021-12-20 17:57:56 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-20 17:57:56 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-20 17:57:56 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-20 17:57:57 INFO  ReimbursementDAO:37 - Number of tickets returned: 4
+2021-12-20 17:57:57 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 4 tickets
+2021-12-20 17:57:57 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 4
+2021-12-20 17:58:02 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-20 17:58:02 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-21 15:57:51 INFO  FrontController:23 - Checked if the requests exist
+2021-12-21 15:57:51 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-21 15:57:51 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-21 15:57:51 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-21 15:57:51 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-21 15:57:51 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-21 15:57:51 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-21 15:57:51 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-21 15:57:51 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-21 15:58:35 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-21 15:58:35 INFO  UserController:26 - User controller mebrihit logged in
+2021-12-21 15:58:35 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:58:36 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-21 15:58:36 INFO  UserServiceImp:37 - Retrived a user
+2021-12-21 15:58:36 INFO  UserController:33 - Current user is a employee
+2021-12-21 15:58:36 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-21 15:58:37 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-21 15:58:37 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:58:37 INFO  ReimbursementDAO:37 - Number of tickets returned: 0
+2021-12-21 15:58:37 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 0 tickets
+2021-12-21 15:58:37 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 0
+2021-12-21 15:59:08 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:59:08 INFO  ReimbursementDAO:60 - Successfully created new ticket for 5
+2021-12-21 15:59:08 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-21 15:59:08 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-21 15:59:08 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-21 15:59:08 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-21 15:59:08 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:59:08 INFO  ReimbursementDAO:37 - Number of tickets returned: 1
+2021-12-21 15:59:08 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 1 tickets
+2021-12-21 15:59:08 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 1
+2021-12-21 15:59:27 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:59:28 INFO  ReimbursementDAO:60 - Successfully created new ticket for 5
+2021-12-21 15:59:28 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-21 15:59:28 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-21 15:59:28 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-21 15:59:28 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-21 15:59:28 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:59:28 INFO  ReimbursementDAO:37 - Number of tickets returned: 2
+2021-12-21 15:59:28 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 2 tickets
+2021-12-21 15:59:28 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 2
+2021-12-21 15:59:45 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:59:45 INFO  ReimbursementDAO:60 - Successfully created new ticket for 5
+2021-12-21 15:59:45 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-21 15:59:45 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-21 15:59:45 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-21 15:59:45 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-21 15:59:45 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:59:46 INFO  ReimbursementDAO:37 - Number of tickets returned: 3
+2021-12-21 15:59:46 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 3 tickets
+2021-12-21 15:59:46 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 3
+2021-12-21 15:59:48 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-21 15:59:48 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-21 15:59:59 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-21 15:59:59 INFO  UserController:26 - User controller jasdhir logged in
+2021-12-21 15:59:59 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:59:59 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-21 15:59:59 INFO  UserServiceImp:37 - Retrived a user
+2021-12-21 15:59:59 INFO  UserController:37 - Current user is a manager
+2021-12-21 15:59:59 INFO  UserController:55 - I am: MANAGER
+2021-12-21 15:59:59 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-21 15:59:59 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 15:59:59 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-21 15:59:59 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 17 tickets
+2021-12-21 15:59:59 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 17
+2021-12-21 16:00:23 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:23 INFO  ReimbursementDAO:114 - Successfully updated ticket: 14
+2021-12-21 16:00:23 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:00:23 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:23 INFO  ReimbursementDAO:114 - Successfully updated ticket: 14
+2021-12-21 16:00:23 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:00:23 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-21 16:00:23 INFO  UserController:55 - I am: MANAGER
+2021-12-21 16:00:23 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-21 16:00:23 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:24 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-21 16:00:24 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 17 tickets
+2021-12-21 16:00:24 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 17
+2021-12-21 16:00:35 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:35 INFO  ReimbursementDAO:114 - Successfully updated ticket: 5
+2021-12-21 16:00:35 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:00:35 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:36 INFO  ReimbursementDAO:114 - Successfully updated ticket: 5
+2021-12-21 16:00:36 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:00:36 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-21 16:00:36 INFO  UserController:55 - I am: MANAGER
+2021-12-21 16:00:36 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-21 16:00:36 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:36 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-21 16:00:36 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 17 tickets
+2021-12-21 16:00:36 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 17
+2021-12-21 16:00:49 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:50 INFO  ReimbursementDAO:114 - Successfully updated ticket: 15
+2021-12-21 16:00:50 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:00:50 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:50 INFO  ReimbursementDAO:114 - Successfully updated ticket: 15
+2021-12-21 16:00:50 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:00:50 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-21 16:00:50 INFO  UserController:55 - I am: MANAGER
+2021-12-21 16:00:50 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-21 16:00:50 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:00:50 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-21 16:00:50 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 17 tickets
+2021-12-21 16:00:50 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 17
+2021-12-21 16:01:02 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:01:03 INFO  ReimbursementDAO:114 - Successfully updated ticket: 17
+2021-12-21 16:01:03 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:01:03 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:01:03 INFO  ReimbursementDAO:114 - Successfully updated ticket: 17
+2021-12-21 16:01:03 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:01:03 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-21 16:01:03 INFO  UserController:55 - I am: MANAGER
+2021-12-21 16:01:03 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-21 16:01:03 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:01:04 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-21 16:01:04 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 17 tickets
+2021-12-21 16:01:04 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 17
+2021-12-21 16:01:21 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:01:22 INFO  ReimbursementDAO:114 - Successfully updated ticket: 1
+2021-12-21 16:01:22 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:01:22 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:01:22 INFO  ReimbursementDAO:114 - Successfully updated ticket: 1
+2021-12-21 16:01:22 INFO  ReimbursementServiceImp:77 - ReimbursementServiceImp was able to update ticket
+2021-12-21 16:01:22 INFO  ReimbursementController:82 - The ticket has a been updated: true
+2021-12-21 16:01:22 INFO  UserController:55 - I am: MANAGER
+2021-12-21 16:01:22 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-21 16:01:22 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 16:01:22 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-21 16:01:22 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 17 tickets
+2021-12-21 16:01:22 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 17
+2021-12-21 16:01:31 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-21 16:01:31 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-21 17:48:07 INFO  FrontController:23 - Checked if the requests exist
+2021-12-21 17:48:07 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-21 17:48:07 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-21 17:48:07 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-21 17:48:07 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-21 17:48:07 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-21 17:48:07 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-21 17:48:07 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-21 17:48:07 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-21 17:49:00 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-21 17:49:00 INFO  UserController:26 - User controller jose logged in
+2021-12-21 17:49:00 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 17:49:01 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-21 17:49:01 INFO  UserServiceImp:37 - Retrived a user
+2021-12-21 17:49:01 INFO  UserController:37 - Current user is a manager
+2021-12-21 17:49:01 INFO  UserController:55 - I am: MANAGER
+2021-12-21 17:49:01 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-21 17:49:01 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 17:49:02 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-21 17:49:02 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 17 tickets
+2021-12-21 17:49:02 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 17
+2021-12-21 17:49:13 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-21 17:49:13 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-21 17:49:19 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-21 17:49:19 INFO  UserController:26 - User controller colleen logged in
+2021-12-21 17:49:19 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 17:49:19 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-21 17:49:19 INFO  UserServiceImp:37 - Retrived a user
+2021-12-21 17:49:19 INFO  UserController:33 - Current user is a employee
+2021-12-21 17:49:20 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-21 17:49:20 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-21 17:49:20 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 17:49:20 INFO  ReimbursementDAO:37 - Number of tickets returned: 4
+2021-12-21 17:49:20 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 4 tickets
+2021-12-21 17:49:20 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 4
+2021-12-21 17:50:20 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 17:50:21 INFO  ReimbursementDAO:60 - Successfully created new ticket for 3
+2021-12-21 17:50:21 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-21 17:50:21 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-21 17:50:21 INFO  UserController:55 - I am: EMPLOYEE
+2021-12-21 17:50:21 INFO  ReimbursementController:39 - The getUserTickets method is being called from the controller.
+2021-12-21 17:50:21 INFO  CustomConnectionFactory:26 - Connection established to connect to the Database.
+2021-12-21 17:50:21 INFO  ReimbursementDAO:37 - Number of tickets returned: 5
+2021-12-21 17:50:21 INFO  ReimbursementServiceImp:42 - Local reimbursement list has : 5 tickets
+2021-12-21 17:50:21 INFO  ReimbursementServiceImp:48 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 5
+2021-12-21 17:50:36 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-21 17:50:36 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-22 20:49:58 INFO  FrontController:23 - Checked if the requests exist
+2021-12-22 20:49:58 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-22 20:49:58 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-22 20:49:58 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-22 20:49:58 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-22 20:49:58 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-22 20:49:58 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-22 20:49:58 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-22 20:49:58 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-22 20:50:13 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-22 20:50:13 INFO  UserController:26 - User controller jose logged in
+2021-12-22 20:50:13 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 20:50:14 INFO  UserDaoImp:126 - Successfully got user from database
+2021-12-22 20:50:14 INFO  UserServiceImp:37 - Retrived a user
+2021-12-22 20:50:14 INFO  UserController:37 - Current user is a manager
+2021-12-22 20:50:14 INFO  UserController:55 - I am: MANAGER
+2021-12-22 20:50:14 INFO  ReimbursementController:29 - The getAllTickets method is being called from the controller.
+2021-12-22 20:50:14 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 20:50:15 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-22 20:50:15 INFO  ReimbursementServiceImp:63 - Local reimbursement list has : 18 tickets
+2021-12-22 20:50:15 INFO  ReimbursementServiceImp:68 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 18
+2021-12-22 20:50:46 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-22 20:50:46 INFO  UserController:74 - The current user is null and the user is being redirected to the login page.
+2021-12-22 22:34:38 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:34:39 INFO  ReimbursementDAO:37 - Number of tickets returned: 6
+2021-12-22 22:34:39 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:34:39 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-22 22:34:39 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:34:39 INFO  ReimbursementDAO:60 - Successfully created new ticket for 1
+2021-12-22 22:34:39 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:34:40 INFO  ReimbursementDAO:37 - Number of tickets returned: 0
+2021-12-22 22:34:40 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:34:40 INFO  ReimbursementDAO:114 - Successfully updated ticket: 1
+2021-12-22 22:34:40 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:34:40 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-22 22:36:59 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:00 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-22 22:37:00 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:01 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-22 22:37:01 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:01 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-22 22:37:01 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:01 INFO  UserDaoImp:33 - Successfully got user by username and password
+2021-12-22 22:37:01 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:02 ERROR UserDaoImp:36 - Failed to get user by username and password
+2021-12-22 22:37:02 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:02 INFO  UserDaoImp:62 - Successfully got user by id
+2021-12-22 22:37:02 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:02 ERROR UserDaoImp:65 - Failed to get user by id
+2021-12-22 22:37:02 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:02 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-22 22:37:41 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:42 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-22 22:37:42 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 19 tickets
+2021-12-22 22:37:42 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 19
+2021-12-22 22:37:42 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:42 INFO  ReimbursementDAO:37 - Number of tickets returned: 0
+2021-12-22 22:37:42 INFO  ReimbursementServiceImp:44 - Local reimbursement list has : 0 tickets
+2021-12-22 22:37:42 INFO  ReimbursementServiceImp:50 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 0
+2021-12-22 22:37:42 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:42 INFO  ReimbursementDAO:37 - Number of tickets returned: 6
+2021-12-22 22:37:42 INFO  ReimbursementServiceImp:44 - Local reimbursement list has : 6 tickets
+2021-12-22 22:37:42 INFO  ReimbursementServiceImp:50 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 6
+2021-12-22 22:37:42 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:37:43 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-22 22:37:43 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 19 tickets
+2021-12-22 22:37:43 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 19
+2021-12-22 22:39:53 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:39:54 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-22 22:39:54 INFO  UserServiceImp:20 - The DB has been calle to login user
+2021-12-22 22:39:54 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:39:55 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-22 22:39:55 INFO  UserServiceImp:37 - Retrived a user
+2021-12-22 22:39:55 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:39:55 ERROR UserDaoImp:94 - Failed to login user by username and password
+2021-12-22 22:39:55 INFO  UserServiceImp:23 - Sorry, unable to call the DB to login user
+2021-12-22 22:41:37 INFO  FrontController:23 - Checked if the requests exist
+2021-12-22 22:41:37 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-22 22:41:37 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-22 22:41:37 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-22 22:41:37 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-22 22:41:37 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-22 22:41:37 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-22 22:41:37 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-22 22:41:37 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-22 22:42:09 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-22 22:42:09 INFO  UserController:25 - User controller jasdhir logged in
+2021-12-22 22:42:09 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:42:09 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-22 22:42:09 INFO  UserServiceImp:32 - temp user is null
+2021-12-22 22:42:09 INFO  UserController:40 - Redirected the invalid user.
+2021-12-22 22:42:15 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-22 22:42:15 INFO  UserController:25 - User controller jasdhir logged in
+2021-12-22 22:42:15 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:42:15 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-22 22:42:15 INFO  UserServiceImp:37 - Retrived a user
+2021-12-22 22:42:15 INFO  UserController:35 - Current user is a manager
+2021-12-22 22:42:15 INFO  UserController:53 - I am: MANAGER
+2021-12-22 22:42:16 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-22 22:42:16 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:42:16 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-22 22:42:16 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 19 tickets
+2021-12-22 22:42:16 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 19
+2021-12-22 22:43:46 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:43:46 INFO  ReimbursementDAO:114 - Successfully updated ticket: 8
+2021-12-22 22:43:46 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-22 22:43:46 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:43:47 INFO  ReimbursementDAO:114 - Successfully updated ticket: 8
+2021-12-22 22:43:47 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-22 22:43:47 INFO  ReimbursementController:85 - The ticket has a been updated: true
+2021-12-22 22:43:47 INFO  UserController:53 - I am: MANAGER
+2021-12-22 22:43:47 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-22 22:43:47 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-22 22:43:47 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-22 22:43:47 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 19 tickets
+2021-12-22 22:43:47 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 19
+2021-12-22 22:43:53 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-22 22:43:53 INFO  UserController:72 - The current user is null and the user is being redirected to the login page.
+2021-12-23 10:24:20 INFO  FrontController:23 - Checked if the requests exist
+2021-12-23 10:24:20 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-23 10:24:20 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-23 10:24:20 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-23 10:24:20 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-23 10:24:20 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-23 10:24:20 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-23 10:24:20 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-23 10:24:20 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-23 10:29:56 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-23 10:29:56 INFO  UserController:25 - User controller jose logged in
+2021-12-23 10:29:56 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:29:57 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:29:57 INFO  UserServiceImp:37 - Retrived a user
+2021-12-23 10:29:57 INFO  UserController:35 - Current user is a manager
+2021-12-23 10:29:57 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:29:57 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:29:57 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:29:58 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:29:58 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 19 tickets
+2021-12-23 10:29:58 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 19
+2021-12-23 10:30:16 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-23 10:30:16 INFO  UserController:72 - The current user is null and the user is being redirected to the login page.
+2021-12-23 10:32:02 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:32:03 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:32:03 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:32:04 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:32:04 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:32:04 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-23 10:32:04 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:32:04 INFO  UserDaoImp:33 - Successfully got user by username and password
+2021-12-23 10:32:04 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:32:05 ERROR UserDaoImp:36 - Failed to get user by username and password
+2021-12-23 10:32:05 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:32:05 INFO  UserDaoImp:62 - Successfully got user by id
+2021-12-23 10:32:05 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:32:05 ERROR UserDaoImp:65 - Failed to get user by id
+2021-12-23 10:32:05 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:32:05 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:34:07 INFO  FrontController:23 - Checked if the requests exist
+2021-12-23 10:34:07 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-23 10:34:07 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-23 10:34:07 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-23 10:34:07 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-23 10:34:07 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-23 10:34:07 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-23 10:34:07 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-23 10:34:07 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-23 10:36:38 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-23 10:36:38 INFO  UserController:25 - User controller jose logged in
+2021-12-23 10:36:38 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:36:38 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:36:38 INFO  UserServiceImp:37 - Retrived a user
+2021-12-23 10:36:38 INFO  UserController:35 - Current user is a manager
+2021-12-23 10:36:39 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:36:39 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:36:39 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:36:39 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:36:39 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 19 tickets
+2021-12-23 10:36:39 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 19
+2021-12-23 10:37:40 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:37:40 INFO  ReimbursementDAO:114 - Successfully updated ticket: 11
+2021-12-23 10:37:40 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:37:40 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:37:40 INFO  ReimbursementDAO:114 - Successfully updated ticket: 11
+2021-12-23 10:37:40 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:37:40 INFO  ReimbursementController:85 - The ticket has a been updated: true
+2021-12-23 10:37:41 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:37:41 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:37:41 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:37:41 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:37:41 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 19 tickets
+2021-12-23 10:37:41 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 19
+2021-12-23 10:38:07 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:38:07 INFO  ReimbursementDAO:114 - Successfully updated ticket: 4
+2021-12-23 10:38:07 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:38:07 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:38:07 INFO  ReimbursementDAO:114 - Successfully updated ticket: 4
+2021-12-23 10:38:07 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:38:07 INFO  ReimbursementController:85 - The ticket has a been updated: true
+2021-12-23 10:38:07 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:38:07 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:38:07 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:38:08 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:38:08 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 19 tickets
+2021-12-23 10:38:08 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 19
+2021-12-23 10:38:13 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-23 10:38:13 INFO  UserController:72 - The current user is null and the user is being redirected to the login page.
+2021-12-23 10:38:23 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-23 10:38:23 INFO  UserController:25 - User controller colleen logged in
+2021-12-23 10:38:23 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:38:23 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:38:23 INFO  UserServiceImp:32 - temp user is null
+2021-12-23 10:38:23 INFO  UserController:40 - Redirected the invalid user.
+2021-12-23 10:38:34 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-23 10:38:34 INFO  UserController:25 - User controller manny logged in
+2021-12-23 10:38:34 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:38:34 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:38:34 INFO  UserServiceImp:37 - Retrived a user
+2021-12-23 10:38:34 INFO  UserController:31 - Current user is a employee
+2021-12-23 10:38:34 INFO  UserController:53 - I am: EMPLOYEE
+2021-12-23 10:38:34 INFO  ReimbursementController:38 - The getUserTickets method is being called from the controller.
+2021-12-23 10:38:34 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:38:35 INFO  ReimbursementDAO:37 - Number of tickets returned: 6
+2021-12-23 10:38:35 INFO  ReimbursementServiceImp:44 - Local reimbursement list has : 6 tickets
+2021-12-23 10:38:35 INFO  ReimbursementServiceImp:50 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 6
+2021-12-23 10:39:03 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:39:03 INFO  ReimbursementDAO:60 - Successfully created new ticket for 2
+2021-12-23 10:39:03 INFO  ReimbursementServiceImp:25 - ReimbursementServiceImp called the dao to create ticket
+2021-12-23 10:39:03 INFO  ReimbursementController:63 - Successfully created a new ticket and the user is being redirected back to the employee page to see the new ticket added
+2021-12-23 10:39:03 INFO  UserController:53 - I am: EMPLOYEE
+2021-12-23 10:39:03 INFO  ReimbursementController:38 - The getUserTickets method is being called from the controller.
+2021-12-23 10:39:03 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:39:04 INFO  ReimbursementDAO:37 - Number of tickets returned: 7
+2021-12-23 10:39:04 INFO  ReimbursementServiceImp:44 - Local reimbursement list has : 7 tickets
+2021-12-23 10:39:04 INFO  ReimbursementServiceImp:50 - ReimbursementServiceImp stored usertickets in hash map < id, riem >: 7
+2021-12-23 10:39:13 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-23 10:39:13 INFO  UserController:72 - The current user is null and the user is being redirected to the login page.
+2021-12-23 10:39:24 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-23 10:39:24 INFO  UserController:25 - User controller jasdhir logged in
+2021-12-23 10:39:24 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:39:24 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:39:24 INFO  UserServiceImp:37 - Retrived a user
+2021-12-23 10:39:24 INFO  UserController:35 - Current user is a manager
+2021-12-23 10:39:24 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:39:24 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:39:24 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:39:25 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:39:25 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 20 tickets
+2021-12-23 10:39:25 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 20
+2021-12-23 10:40:07 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:40:07 INFO  ReimbursementDAO:114 - Successfully updated ticket: 20
+2021-12-23 10:40:07 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:40:07 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:40:08 INFO  ReimbursementDAO:114 - Successfully updated ticket: 20
+2021-12-23 10:40:08 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:40:08 INFO  ReimbursementController:85 - The ticket has a been updated: true
+2021-12-23 10:40:08 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:40:08 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:40:08 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:40:08 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:40:08 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 20 tickets
+2021-12-23 10:40:08 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 20
+2021-12-23 10:40:24 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:40:24 INFO  ReimbursementDAO:114 - Successfully updated ticket: 6
+2021-12-23 10:40:24 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:40:24 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:40:25 INFO  ReimbursementDAO:114 - Successfully updated ticket: 6
+2021-12-23 10:40:25 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:40:25 INFO  ReimbursementController:85 - The ticket has a been updated: true
+2021-12-23 10:40:25 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:40:25 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:40:25 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:40:25 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:40:25 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 20 tickets
+2021-12-23 10:40:25 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 20
+2021-12-23 10:40:29 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-23 10:40:29 INFO  UserController:72 - The current user is null and the user is being redirected to the login page.
+2021-12-23 10:41:09 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:41:10 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:41:10 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:41:11 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:41:11 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:41:11 INFO  UserDaoImp:91 - Successfully logged in user by username and password
+2021-12-23 10:41:11 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:41:11 INFO  UserDaoImp:33 - Successfully got user by username and password
+2021-12-23 10:41:11 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:41:11 ERROR UserDaoImp:36 - Failed to get user by username and password
+2021-12-23 10:41:11 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:41:12 INFO  UserDaoImp:62 - Successfully got user by id
+2021-12-23 10:41:12 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:41:12 ERROR UserDaoImp:65 - Failed to get user by id
+2021-12-23 10:41:12 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:41:12 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:43:30 INFO  FrontController:23 - Checked if the requests exist
+2021-12-23 10:43:30 INFO  Dispatcher:54 - Added a GET request handler for the current path to the /api/user.
+2021-12-23 10:43:30 INFO  Dispatcher:57 - Added a POST request handler for the current path to the /api/user/login.
+2021-12-23 10:43:30 INFO  Dispatcher:61 - Added a GET request handler for the current path to the /api/user/logout.
+2021-12-23 10:43:30 INFO  Dispatcher:75 - Added a GET request handler for the current path to the /user/employee/tickets.
+2021-12-23 10:43:30 INFO  Dispatcher:78 - Added a POST request handler for the current path to the /user/employee/tickets/create.
+2021-12-23 10:43:30 INFO  Dispatcher:83 - Added a GET request handler for the current path to the /user/manager/tickets.
+2021-12-23 10:43:30 INFO  Dispatcher:86 - Added a POST request handler for the current path to the /user/manager/tickets/update.
+2021-12-23 10:43:30 INFO  Dispatcher:93 - Added a GET request handler for the current path to the whoAmI.
+2021-12-23 10:47:30 INFO  FrontController:40 - In front controller!  /api/user/login
+2021-12-23 10:47:30 INFO  UserController:25 - User controller jose logged in
+2021-12-23 10:47:30 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:47:31 INFO  UserDaoImp:127 - Successfully got user from database
+2021-12-23 10:47:31 INFO  UserServiceImp:37 - Retrived a user
+2021-12-23 10:47:31 INFO  UserController:35 - Current user is a manager
+2021-12-23 10:47:31 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:47:31 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:47:31 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:47:32 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:47:32 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 20 tickets
+2021-12-23 10:47:32 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 20
+2021-12-23 10:47:45 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:47:45 INFO  ReimbursementDAO:114 - Successfully updated ticket: 7
+2021-12-23 10:47:45 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:47:45 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:47:45 INFO  ReimbursementDAO:114 - Successfully updated ticket: 7
+2021-12-23 10:47:45 INFO  ReimbursementServiceImp:80 - ReimbursementServiceImp was able to update ticket
+2021-12-23 10:47:45 INFO  ReimbursementController:85 - The ticket has a been updated: true
+2021-12-23 10:47:45 INFO  UserController:53 - I am: MANAGER
+2021-12-23 10:47:45 INFO  ReimbursementController:28 - The getAllTickets method is being called from the controller.
+2021-12-23 10:47:45 INFO  CustomConnectionFactory:25 - Connection established to connect to the Database.
+2021-12-23 10:47:46 INFO  ReimbursementDAO:91 - Successfully got all tickets.
+2021-12-23 10:47:46 INFO  ReimbursementServiceImp:66 - Local reimbursement list has : 20 tickets
+2021-12-23 10:47:46 INFO  ReimbursementServiceImp:71 - ReimbursementServiceImp stored all tickets in hash map < id, riem >: 20
+2021-12-23 10:47:50 INFO  FrontController:40 - In front controller!  /api/user/logout
+2021-12-23 10:47:50 INFO  UserController:72 - The current user is null and the user is being redirected to the login page.

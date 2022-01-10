@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.ers.model.User" table = "ERS_USERS">
+
+      
+      <id name = "id" type = "int" column = "id">
+         <generator class="native"/>
+      </id>
+      
+      <property name = "ERS_USERS_ID" column = "ERS_USERS_ID" type = "int"/>
+      <property name = "ERS_USERNAME" column = "ERS_USERNAME" type = "string"/>
+      <property name = "ERS_PASSWORD" column = "ERS_PASSWORD" type = "string"/>
+      <property name = "USER_FIRST_NAME" column = "USER_FIRST_NAME" type = "string"/>
+      <property name = "USER_LAST_NAME" column = "USER_LAST_NAME" type = "string"/>
+      <property name = "USER_EMAIL" column = "USER_EMAIL" type = "string"/>
+      <property name = "USER_ROLE_ID" column = "USER_ROLE_ID" type = "string"/>
+    
+      
+   </class>
+
+   
+</hibernate-mapping>

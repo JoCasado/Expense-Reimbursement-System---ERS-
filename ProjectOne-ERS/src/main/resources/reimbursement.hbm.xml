@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.ers.model.Reimbursement" table = "ERS_REIMBURSEMENT">
+
+      
+      <id name = "id" type = "int" column = "id">
+         <generator class="native"/>
+      </id>
+      
+      <property name = "REIM_ID" column = "REIM_ID" type = "int"/>
+      <property name = "REIM_AMOUNT" column = "REIM_AMOUNT" type = "string"/>
+      <property name = "REIM_SUBMITTED" column = "REIM_SUBMITTED" type = "string"/>
+      <property name = "REIM_RESOLVED" column = "REIM_RESOLVED" type = "string"/>
+      <property name = "REIM_DESCRIPTION" column = "REIM_DESCRIPTION" type = "string"/>
+      <property name = "REIM_AUTHOR" column = "REIM_AUTHOR" type = "string"/>
+      <property name = "REIM_RESOLVER" column = "REIM_RESOLVER" type = "string"/>
+      <property name = "REIM_STATUS_ID" column = "REIM_STATUS_ID" type = "string"/>
+      <property name = "REIM_TYPE_ID" column = "REIM_TYPE_ID" type = "string"/>
+     
+      
+      
+    
+      
+   </class>
+
+   
+</hibernate-mapping>
